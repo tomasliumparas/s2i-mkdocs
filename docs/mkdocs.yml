@@ -1,0 +1,30 @@
+site_name: HC Docs
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+  font:
+    text: 'Work Sans'
+plugins:
+    - search:
+        prebuild_index: false
+dev_addr: 0.0.0.0:80
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
