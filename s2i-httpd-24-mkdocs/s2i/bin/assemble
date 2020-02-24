@@ -21,7 +21,7 @@ echo "---> Build the docs"
 mkdocs build -f /tmp/src/mkdocs.yml
 
 echo "---> Installing application source"
-cp -af /tmp/src/site ./
+cp -af /tmp/src/site/ ./
 
 
 # Fix source directory permissions
