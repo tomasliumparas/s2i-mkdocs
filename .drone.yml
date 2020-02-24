@@ -34,7 +34,7 @@ steps:
     - name: docker-socket
       path: /var/run/docker.sock
   commands:
-    - ./s2i build docs s2i-httpd-24-mkdocs-centos7 mkdocs-example
+    - ./s2i build docs-example s2i-httpd-24-mkdocs-centos7 mkdocs-example
 
 - name: RUN docker image
   image: docker/compose
