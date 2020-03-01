@@ -16,6 +16,13 @@ RUN yum install -y \
       gcc && \
     yum -y clean all --enablerepo='*'
 
+# Drawio & dependencies
+RUN yum install -y wget \
+      alsa-lib && \
+    wget wget https://github.com/jgraph/drawio-desktop/releases/download/v12.6.5/draw.io-x86_64-12.6.5.rpm -O drawio.rpm && \
+    yum install -y drawio.rpm && \
+    yum -y clean all --enablerepo='*'
+
 
 COPY ./s2i/bin/ /usr/libexec/s2i
 
