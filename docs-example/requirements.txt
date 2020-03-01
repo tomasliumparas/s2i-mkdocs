@@ -3,4 +3,3 @@ mkdocs-material
 mkdocs-markdownextradata-plugin
 pymdown-extensions
 Pygments
-mkdocs-drawio-exporter
