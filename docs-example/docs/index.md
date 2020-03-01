@@ -17,4 +17,6 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 
-{{ customer.name }}
+## Example Drawio diagram
+
+![Example drawio diagram](example.drawio)
