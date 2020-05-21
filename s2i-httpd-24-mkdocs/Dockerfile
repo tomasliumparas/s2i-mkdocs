@@ -13,7 +13,8 @@ USER 0
 RUN yum install -y \
       python3 \
       python3-devel \
-      gcc && \
+      gcc \
+      git && \
     yum -y clean all --enablerepo='*'
 
 RUN pip3 install git+https://github.com/pugong/mkdocs-mermaid-plugin
