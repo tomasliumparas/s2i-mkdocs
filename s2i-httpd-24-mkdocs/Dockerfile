@@ -16,6 +16,8 @@ RUN yum install -y \
       gcc && \
     yum -y clean all --enablerepo='*'
 
+RUN pip3 install git+https://github.com/pugong/mkdocs-mermaid-plugin
+
 COPY ./s2i/bin/ /usr/libexec/s2i
 
 RUN chown -R 1001:1001 /opt/app-root
