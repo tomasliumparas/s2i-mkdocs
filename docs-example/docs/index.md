@@ -20,3 +20,15 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
 ## Example Drawio diagram
 
 ![Example drawio diagram](example.drawio)
+
+
+## Example mermaid diagram
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
