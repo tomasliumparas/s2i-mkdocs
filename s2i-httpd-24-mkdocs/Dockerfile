@@ -13,6 +13,7 @@ USER 0
 RUN yum install -y \
       python3 \
       python3-devel \
+      git \
       gcc && \
     yum -y clean all --enablerepo='*'
 
